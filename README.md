@@ -4,6 +4,11 @@
 
 The Complaint Management System is a web application that allows users to submit complaints, view all submitted complaints, and manage them efficiently. Built with Flask and JavaScript, this application provides a simple interface for users to report issues and view responses.
 
+## Demo
+
+![preview](https://github.com/user-attachments/assets/516da54b-c6af-44b4-837c-5ef858f50a86)
+
+
 ## Features
 
 **Submit Complaints**: Users can fill out a form to submit their complaints.
