@@ -13,7 +13,9 @@ The Complaint Management System is a web application that allows users to submit
 ## Technologies Used
 
 **Frontend**: HTML, CSS, JavaScript
+
 **Backend**: Python with Flask
+
 **Database**: SQLite (or any other database you are using)
 
 ## Installation
