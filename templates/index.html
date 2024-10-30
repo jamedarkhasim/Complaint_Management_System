@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complaint Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Complaint Management System</h1>
+    <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName">
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName">
+    </div>
+    <div class="form-group">
+        <label for="address">Address:</label>
+        <input type="text" id="address">
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender">
+            <option>Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="comment">Complaint:</label>
+        <textarea id="comment"></textarea>
+    </div>
+    <button onclick="submitComplaint()">Submit Complaint</button>
+
+    <h2>All Complaints</h2>
+    <div id="complaintList" class="complaint-list"></div>
+</div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
